@@ -1,0 +1,78 @@
+.padding-header{
+    padding-bottom: 6px;
+}
+
+.grupo-economico{
+    font-size: 16px;
+    color: var(--font-gray);
+    padding-top: 25px;
+    margin-right: 15px;
+    text-align: right;
+    position: relative;
+    width: 38%;
+}
+
+.drop-grupo-economico{
+    padding: 15px 31px;
+}
+
+.logo{
+    width: 160px;
+    padding:15px;
+}
+
+.ic-user{
+    right: 17px;
+    position: relative;
+}
+
+.father-login, #dropdownMenu2{
+    margin-top: 10px;
+}
+
+.login{
+    background-color: var(--main-bg-menu-color);
+    color:#fff;
+    padding: 16px 30px;
+}
+
+.ic-drop-login{
+    left: 18px;
+}
+
+.alerta{
+    background-color: var(--border-blue);
+    height: auto;
+    width:100%;
+    padding:16px;
+    color:#fff;
+}
+
+.alerta-qtd{
+    content: "1";
+    background: red;
+    border-radius: 15px;
+    width: 15px;
+    font-size: 10px;
+    top: -2px;
+    position: relative;
+    left: 26px;
+    float: left;
+}
+
+.father-alerta{
+    height: auto;
+    padding-left: 0px;
+}
+
+.padding-drop{
+    padding-left: 1%;
+}
+
+.ic-drop-economico{
+    left: 20px;
+}
+
+.padding-header{
+    border-left: 4px solid var(--gray-bg);
+}

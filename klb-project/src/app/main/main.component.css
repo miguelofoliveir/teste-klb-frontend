@@ -1,0 +1,163 @@
+.migalha {
+  font-size: 14px;
+  color: var(--font-gray);
+  padding: 30px 15px 30px 40px;
+}
+
+.seta-migalha {
+  margin: 0px 5px;
+}
+
+.title-page {
+  color: var(--main-bg-menu-color);
+  font-size: 36px;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.father-title-page {
+  padding-bottom: 50px;
+  padding-left: 40px;
+}
+
+.ic-globo-2 {
+  top: 10px;
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+
+.filter-product {
+  color: var(--font-gray);
+  font-size: 16px;
+  top: 20px;
+  left: 20px;
+}
+
+.padding-filter {
+  padding-right: 10px;
+}
+
+.title-atalhos {
+  color: var(--main-bg-menu-color);
+}
+
+.title-alerta {
+  color: var(--border-blue);
+
+}
+
+.title-atalhos,
+.title-alerta {
+  font-size: 24px;
+
+}
+
+.father-title {
+  border-bottom: 1px solid var(--gray-bg);
+  padding: 40px 0px 40px 40px;
+}
+
+.periodo {
+  font-size: 12px;
+  color: var(--font-gray);
+  padding-right: 40px;
+}
+
+.margin-dash {
+  margin-right: 3.5%;
+  margin-left: 2.5%;
+}
+
+.sub-title {
+  font-size: 14px;
+  color: var(--font-gray);
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.padding-topic-operacional {
+  padding-left: 6%;
+}
+
+.padding-topic-geral {
+  padding-left: 7%;
+}
+
+.bt-escolha,
+.bt-escolha-2 {
+  text-align: center;
+  border: 1px solid var(--border-blue);
+  font-size: 14px;
+  padding: 10px 0px;
+  color: var(--font-gray);
+
+}
+
+.bt-escolha {
+  width: 40%;
+  margin-right: 9%;
+  margin-bottom: 15px;
+}
+
+.bt-escolha-2 {
+  width: 80%;
+  margin-bottom: 15px;
+}
+
+.border-topic-one {
+  border-right: 1px solid var(--gray-bg);
+}
+
+.notas-canceladas {
+  font-size: 14px;
+  color: var(--font-gray);
+  padding: 25px 0px 25px 40px;
+}
+
+.hr-personalizado {
+  width: 93%;
+  height: 2px;
+  background-color: var(--gray-bg);
+  margin: 0% 7%;
+}
+
+.dropdown-style {
+  margin-top: 3px;
+  padding: 17px 37px;
+}
+
+.dropdown-style-actions {
+  margin-top: 17px;
+  padding: 5px 46px;
+}
+
+.ic-down {
+  position: relative;
+  left: 38px;
+  color: var(--border-blue);
+}
+
+.alert-col {
+  max-width: 34% !important;
+  flex: 34% !important;
+}
+
+.operacional-cards {
+  padding-left: 4%;
+}
+
+.ic-drop-produto {
+  left: 26px;
+  top: 2px;
+}
+
+.father-dash {
+  margin-bottom: 25px;
+}
+
+.dash-child {
+  -webkit-box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 0px 9px 5px rgba(0, 0, 0, 0.12);
+}

@@ -1,0 +1,10 @@
+<div class="father-search">
+  <input class="input-search text-center" placeholder="Pesquise Aqui"> <i class="fa fa-search" aria-hidden="true"></i>
+</div>
+<div class="father-menu-base text-center" *ngFor="let menu of MenuItems; index as i">
+  <div class="menu-base menu-title-{{i}}">
+    <a>{{menu.description}}</a>
+    <span class="hover-menu float-right">>></span>
+    <span class="active-menu float-right"></span>
+  </div>
+</div>

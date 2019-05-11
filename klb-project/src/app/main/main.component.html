@@ -1,0 +1,150 @@
+<div class="col-12">
+  <div class="row migalha">
+    <div>Página Inicial</div>
+    <div class="seta-migalha">></div>
+    <div>Painel de Gestão</div>
+  </div>
+</div>
+<div class="col-12">
+  <div class="row">
+    <div class="col-8 father-title-page">
+      <div><img class="ic-globo-2 float-left" src="../../assets/img/ic-globo-2.png"></div>
+      <div class="title-page">Painel de Gestão</div>
+    </div>
+    <div class="col-4">
+      <div class="row float-right padding-filter">
+        <div class="col-4 filter-product">Produto:</div>
+        <div class="col-8 drop-filter">
+          <div class="dropdown">
+            <button class="btn dropdown-toggle dropdown-style" type="button" id="dropdownMenu3" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Selecione o filtro<i class="fas fa-angle-double-down ic-drop ic-drop-produto"></i>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu3">
+              <button class="dropdown-item" type="button">Todos</button>
+              <button class="dropdown-item" type="button">Apenas X</button>
+              <button class="dropdown-item" type="button">Apenas Y</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-12  father-dash padding-zero">
+  <div class="row">
+    <div class="col-7 bg-white margin-dash padding-zero dash-child">
+      <div class="row">
+        <div class="col-12">
+          <div class="title-atalhos father-title">Atalhos</div>
+        </div>
+        <div class="col-12">
+          <div class="container">
+            <div class="row">
+              <div class="col-8 padding-topic-operacional border-topic-one">
+                <div class="container">
+                  <div class="row">
+                    <div class="sub-title">Operacional</div>
+                    <div class="col-12 padding-zero">
+                      <div class="row operacional-cards">
+                        <div class="bt-escolha float-left">Envio</div>
+                        <div class="bt-escolha float-left">Assinatura</div>
+                      </div>
+                    </div>
+                    <div class="col-12 padding-zero">
+                      <div class="row operacional-cards">
+                        <div class="bt-escolha float-left">Envio de Duplicatas</div>
+                        <div class="bt-escolha float-left">Assinatura Digital</div>
+                      </div>
+                    </div>
+                    <div class="col-12 padding-zero">
+                      <div class="row operacional-cards">
+                        <div class="bt-escolha float-left">Nova Operação</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 padding-topic-geral">
+                <div class="container">
+                  <div class="row">
+                    <div class="sub-title">Geral</div>
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="bt-escolha-2 float-left">Carteira</div>
+                        <div class="bt-escolha-2 float-left">Instituição</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-4 bg-white padding-zero alert-col dash-child">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="row father-title">
+              <div class="title-alerta col-6">Alertas</div>
+              <div class="col-6 periodo">
+                <div class="float-right">Últimos <span>5</span> dias</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 notas-canceladas"><span class="number">23</span> Notas Canceladas</div>
+                <div class="col-12">
+                  <div class="hr-personalizado"></div>
+                </div>
+                <div class="col-12">
+                  <div class="row">
+                    <div class="notas-canceladas col-6"><span class="number">13</span> Notas Canceladas</div>
+                    <div class="col-6">
+                      <div class="dropdown">
+                        <button class="btn dropdown-toggle dropdown-style dropdown-style-actions" type="button"
+                          id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Ações<i class="fas fa-angle-down ic-down"></i>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                          <button class="dropdown-item" type="button"
+                            *ngFor="let action of Actions; index as i">{{action.description}}</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 text-center">
+                  <div class="hr-personalizado"></div>
+               
+                <div class="row">
+                  <div class="notas-canceladas col-6"><span class="number">7</span> Assinaturas Digital</div>
+                  <div class="col-6">
+                    <div class="dropdown">
+                      <button class="btn dropdown-toggle dropdown-style dropdown-style-actions" type="button"
+                        id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Ações<i class="fas fa-angle-down ic-down"></i>
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item" type="button"
+                          *ngFor="let action of Actions; index as i">{{action.description}}</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="col-12 text-center">
+                  <div class="hr-personalizado"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

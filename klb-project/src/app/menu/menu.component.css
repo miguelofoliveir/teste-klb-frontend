@@ -1,0 +1,45 @@
+.input-search{
+    border:none;
+}
+
+.father-search{
+    padding:25px 0px;
+    background-color: #fff;
+}
+
+.menu-base{
+    color:#fff;
+    font-size: 16px;
+}
+
+.hover-menu{
+    display: none;
+    color:var(--border-color);
+    padding-right: 15px;
+    line-height: 1.5;
+}
+
+.menu-base a:hover + .hover-menu{
+    display: block;
+}
+
+.menu-base a{
+    cursor: pointer;
+}
+
+.father-menu-base{
+    padding: 15px 0px;
+    border:1px solid var(--border-color);
+}
+
+.fa-search{
+    font-size: 20px;
+    color:var(--font-gray);
+}
+
+.menu-title-0{
+    background-image: url(../../assets/img/ic-active.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    position: relative;
+}

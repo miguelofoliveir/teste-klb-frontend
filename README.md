@@ -34,3 +34,6 @@ Já com o ambiente preparado o desenvolvimento foi feito da seguinte forma:
 como nome mesmo diz o main da aplicação onde as ações está sendo carregadas via api.
 
 <b>Comandos para criar component / service / module</b>
+npm g c component-name
+npm g m module-name 
+npm g s service-name 
